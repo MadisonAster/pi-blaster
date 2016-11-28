@@ -52,15 +52,21 @@ static char VERSION[] = "SNAPSHOT";
 // Create default known_pins with raspberry pi list of pins
 // to compare against the param received.
 static uint8_t known_pins[MAX_CHANNELS] = {
-		4,      // P1-7
-		17,     // P1-11
-		18,     // P1-12
-		27,     // P1-13
-		21,     // P1-40
-		22,     // P1-15
-		23,     // P1-16
-		24,     // P1-18
-		25,     // P1-22
+		10,		// P1-19
+		3,		// P1-5
+		5,		// P1-29
+		7,		// P1-26
+		9,		// P1-21
+		11,		// P1-23
+		13,		// P1-33
+		15,		// P1-10
+		17,		// P1-11
+		19,		// PI-35
+		21,		// PI-40
+		23,		// PI-16
+		25,		// PI-22
+		27,		// PI-13
+		26,		// PI-37
 };
 
 // Create a list of reserved GPIO pins
